@@ -1,0 +1,14 @@
+---
+- name: configuration management
+  hosts: windows
+  roles:
+    - jdk
+    - maven
+    - nginx
+    - nodejs
+    - groovy
+    - docker_cli
+    - azurecli
+    - pgadmin4
+    - agent_pool
+
